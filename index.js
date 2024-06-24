@@ -41,7 +41,7 @@ function decrypt() {
     let outputText = '';
     for (let i = 0; i < inputText.length; i++) {
         const char = inputText.charCodeAt(i);
-        // Decrypt uppercase letters
+        //Decrypt uppercase letters
         if (char >= 65 && char <= 90) {
             outputText += String.fromCharCode((char - 65 - key + 26) % 26 + 65);
         }
