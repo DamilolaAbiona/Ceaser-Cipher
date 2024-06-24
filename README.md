@@ -15,9 +15,7 @@ The application is designed to encrypt plaintext using a key to produce a cipher
 - **User input for plaintext and key**: Allow users to input the text they want to encrypt or decrypt and the key to be used.
 - **Encryption algorithm**: Implement an algorithm to generate cipher text from plaintext using the given key.
 - **Decryption algorithm**: Implement an algorithm to revert cipher text to plaintext using the correct key.
-- **Proper error handling**: Ensure the application handles errors gracefully, such as invalid inputs or keys.
-To display the project demo link in a README using Markdown and provide a brief description of how the app works, you can structure it like this:
-
+- 
 ### Project Demo
 
 You can access the live demo of the project [here](https://ceaser-cipher-six.vercel.app/).
