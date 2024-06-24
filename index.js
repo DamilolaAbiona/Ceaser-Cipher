@@ -4,8 +4,8 @@ let encryptionKey = null;  // Variable to store the encryption key
 function encrypt() {
     const inputText = document.getElementById('inputText').value.trim();  // Trim to remove leading/trailing whitespace
     const key = parseInt(document.getElementById('key').value);
-
-    // alidate input
+    
+    // Validate input
     if (inputText === '') {
         alert('Please enter text to encrypt.');
         return;
@@ -14,7 +14,7 @@ function encrypt() {
         alert('Please enter a valid number for the key.');
         return;
     }
-
+    
     // Store the encryption key
     encryptionKey = key;
 
